@@ -4,24 +4,26 @@ body{
 }
 
 #app{
-    display: grid;
-    grid-auto-rows: minmax(150px, auto);
+    /* display: grid;
+    grid-auto-rows: minmax(150px, auto); */
     /* grid-template-columns:  */
-    height:100vh;
+    height:100%;
     background: #f23557;
     color: #f0d43a;
     justify-content: center;
-    grid-gap: 1em;
+    /* grid-gap: 1em; */
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
+    padding: 2em 6em;
 }
 
 .holder{
-
+    margin: 2em auto;
 }
 
 .entry{
     background: rgba(59, 74, 107, .4);
+    min-height: 10em;
 }
 
 #entryHolder{
@@ -73,6 +75,7 @@ button{
     font-family: 'Oswald', sans-serif;
     border: none;
     box-shadow: 2px 4px 5px #444;
+    cursor: pointer;
 }
 h1{
     font-size: 36px;
